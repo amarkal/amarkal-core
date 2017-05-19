@@ -1,0 +1,28 @@
+{
+    "name": "askupa-software/amarkal-core",
+    "description": "The core module of the Amarkal framework.",
+    "type": "wordpress",
+    "keywords": ["wordpress","admin", "amarkal", "framework"],
+    "homepage": "https://github.com/askupasoftware/amarkal-core",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Askupa Software",
+            "email": "hello@askupasoftware.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/askupasoftware/amarkal-core/issues",
+        "source": "https://github.com/askupasoftware/amarkal-core"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "askupa-software/amarkal-ui": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amarkal\\Core\\": ""
+        },
+        "files": ["composer.php"]
+    }
+}
