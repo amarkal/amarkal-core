@@ -1,0 +1,20 @@
+{
+    "name": "amarkal-core",
+    "description": "The core module of the Amarkal framework",
+    "author": "Askupa Software",
+    "main": "GruntFile.js",
+    "license": "GPL-3.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/askupasoftware/amarkal-core.git"
+    },
+    "devDependencies": {
+      "grunt": "^1.0.1",
+      "grunt-contrib-compass": "^1.1.1",
+      "grunt-contrib-concat": "^1.0.1",
+      "grunt-contrib-jshint": "^1.1.0",
+      "grunt-contrib-uglify": "^3.2.1",
+      "grunt-contrib-watch": "^1.0.0",
+      "jit-grunt": "^0.10.0"
+    }
+  }
