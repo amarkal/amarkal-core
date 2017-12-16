@@ -15,7 +15,12 @@ class Utility
      */
     static function path_to_url( $path )
     {
-        $url  = str_replace( ABSPATH, '', $path );
+        // We are replacing DIRECTORY_SEPARATOR with forward slash here 
+        // to avoid issues in Windows systems
+        $path    = str_replace( DIRECTORY_SEPARATOR, '/', $path);
+        $abspath = str_replace( DIRECTORY_SEPARATOR, '/', ABSPATH);
+        $url     = str_replace( $abspath, '', $path );
+
         return esc_url_raw( site_url( $url ) );
     }
 }
