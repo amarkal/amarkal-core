@@ -1,4 +1,4 @@
-# amarkal-core [![Build Status](https://scrutinizer-ci.com/g/askupasoftware/amarkal-core/badges/build.png?b=master)](https://scrutinizer-ci.com/g/askupasoftware/amarkal-core/build-status/master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/askupasoftware/amarkal-core/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/askupasoftware/amarkal-core/?branch=master) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/) [![Amarkal Powered](https://askupasoftware.com/amarkal-powered.svg)](https://products.askupasoftware.com/amarkal) [![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://raw.githubusercontent.com/askupasoftware/amarkal-core/master/LICENSE)
+# amarkal-core [![Build Status](https://scrutinizer-ci.com/g/amarkal/amarkal-core/badges/build.png?b=master)](https://scrutinizer-ci.com/g/amarkal/amarkal-core/build-status/master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/amarkal/amarkal-core/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/amarkal/amarkal-core/?branch=master) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/) [![Amarkal Powered](https://askupasoftware.com/amarkal-powered.svg)](https://products.askupasoftware.com/amarkal) [![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://raw.githubusercontent.com/amarkal/amarkal-core/master/LICENSE)
 The core module of the Amarkal framework.
 
 **Tested up to:** WordPress 4.7  
@@ -37,7 +37,7 @@ require_once 'path/to/vendor/autoload.php';
 
 ### Manually
 
-[Download the package](https://github.com/askupasoftware/amarkal-core/archive/master.zip) from github and include `bootstrap.php` in your project.
+[Download the package](https://github.com/amarkal/amarkal-core/archive/master.zip) from github and include `bootstrap.php` in your project.
 
 ```php
 require_once 'path/to/amarkal-core/bootstrap.php';

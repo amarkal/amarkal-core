@@ -6,7 +6,7 @@
  *
  * @package   amarkal-core
  * @author    Askupa Software <hello@askupasoftware.com>
- * @link      https://github.com/askupasoftware/amarkal-core
+ * @link      https://github.com/amarkal/amarkal-core
  * @copyright 2017 Askupa Software
  */
 
